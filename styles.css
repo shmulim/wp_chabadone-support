@@ -1,0 +1,13 @@
+/* places the logo in the admin menu-bar */
+#wpadminbar #wp-admin-bar-chabadone .ab-icon:before {
+    content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAV5JREFUeNqsVMtxwkAMXS+5YyoAKrA7wDlxjKkA0wGpAEqACmI6SG7h5nRgOiAVBO4wzhMjJkLswjITzWhs0PNbvdUnaprGaDuuOwUeOTyFd0VoA6/hi9bwp9bfRZIMJPTxuyLw2Qe8AOnuioyJKnjbhBtlmp0JLRPFDiI6eQTvABzh2YdP4N8Ck7CSv8xAVuJ9LEATEJS+dBz4Z+Aryz9yEVjdIiJDvFAZTk8ycUqm5M0D70viXs53lskLxanbQLJKSU+tAuxCy+g4NLbmH02TxaEfcjtdqLJKe+IA+SxXsmvLs2Z0mQNM4r5OMnkUViIw40E3d5o2EX+VcgJ6nKHsNzpgLqsGXM4ZDVQ7pXrQKZu3Bwu450GvL6rJIzRiwMNEV62BAG0AkvyqZs+1elK9ICPXpmXZNHszR2gJkmlI094yKkjfR0T2FHAvJe/8+wuAZLr88Bn3fDGf/wowAK8Vv3P0i5FCAAAAAElFTkSuQmCC');
+    top: 2px;
+    display: block;
+}
+
+/* removes the blue box from around link */
+a:focus, a:focus .media-icon img {
+  color: #fff !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
